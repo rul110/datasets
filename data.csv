@@ -1,0 +1,25 @@
+Attack,Month,Count
+Phishing,01,88
+SQL Injection,01,82
+Phishing,02,76
+SQL Injection,02,71
+Phishing,03,47
+SQL Injection,03,88
+Phishing,04,76
+SQL Injection,04,81
+Phishing,05,71
+SQL Injection,05,88
+Phishing,06,58
+SQL Injection,06,120
+Phishing,07,79.9
+SQL Injection,07,83
+Phishing,08,69.4
+SQL Injection,08,73
+Phishing,09,53
+SQL Injection,09,98
+Phishing,10,80.8
+SQL Injection,10,85
+Phishing,11,74
+SQL Injection,11,94
+Phishing,12,46
+SQL Injection,12,64
