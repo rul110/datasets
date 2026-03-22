@@ -1,0 +1,16 @@
+source,target,weight,compromised,node_type
+internet,web_server,100,True,dmz
+web_server,app_server,40,True,internal
+web_server,db_server,5,False,internal
+app_server,file_server,20,True,internal
+app_server,workstation_1,15,False,endpoint
+app_server,workstation_2,12,False,endpoint
+file_server,workstation_3,8,False,endpoint
+file_server,domain_controller,25,False,critical
+workstation_1,domain_controller,5,False,critical
+workstation_3,domain_controller,3,False,critical
+domain_controller,backup_server,30,False,critical
+domain_controller,hr_db,10,False,critical
+workstation_2,hr_db,4,False,critical
+workstation_1,workstation_4,2,False,endpoint
+workstation_4,domain_controller,2,False,critical
